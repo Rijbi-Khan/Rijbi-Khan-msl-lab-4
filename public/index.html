@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSL LAB 4 | Dynamic REST Feed</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Banner -->
+        <header class="app-header">
+            <div class="header-badge">MSL LAB 4</div>
+            <h1>Dynamic API Content Feed</h1>
+            <p class="subtitle">Fetching and rendering live JSON data using Express & Vanilla JavaScript</p>
+            <div class="stats-bar">
+                <span class="status-indicator"><span class="dot"></span> Live Feed Connected</span>
+                <span id="post-count" class="badge-count">Loading posts...</span>
+            </div>
+        </header>
+
+        <!-- Main Feed Grid -->
+        <main class="feed-section">
+            <div id="feed-wrapper" class="posts-grid">
+                <!-- Posts dynamically rendered here -->
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading posts from REST endpoint...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 <strong>Rijbi-Khan</strong> | MSL LAB 4 Web Application</p>
+        </footer>
+    </div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>

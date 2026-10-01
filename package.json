@@ -1,0 +1,16 @@
+{
+  "name": "rijbi-khan-msl-lab-4",
+  "version": "1.0.0",
+  "description": "Express web application featuring dynamic REST API integration for MSL LAB 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["express", "node", "javascript", "msl-lab-4"],
+  "author": "Rijbi-Khan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
